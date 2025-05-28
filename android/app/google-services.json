@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "994164164674",
+    "firebase_url": "https://power-failure-warning-device-default-rtdb.firebaseio.com",
+    "project_id": "power-failure-warning-device",
+    "storage_bucket": "power-failure-warning-device.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994164164674:android:1c2434cc39ed29eba505db",
+        "android_client_info": {
+          "package_name": "com.example.app_lost_electronic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994164164674-quissdh7ngs1q68gqqcvuq52d7j853s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVPLNB_8Es28ORPPJHQfpMa8Kt-A8DInY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994164164674-quissdh7ngs1q68gqqcvuq52d7j853s7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "994164164674-4eahs467pfjrspm1avlsa7q4kh0alrh8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.appLostElectronic"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994164164674:android:dda00d64764702bea505db",
+        "android_client_info": {
+          "package_name": "com.example.app_lost_electronic_fixed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994164164674-quissdh7ngs1q68gqqcvuq52d7j853s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVPLNB_8Es28ORPPJHQfpMa8Kt-A8DInY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994164164674-quissdh7ngs1q68gqqcvuq52d7j853s7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "994164164674-4eahs467pfjrspm1avlsa7q4kh0alrh8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.appLostElectronic"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

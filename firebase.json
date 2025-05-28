@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "power-failure-warning-device",
+          "appId": "1:994164164674:android:dda00d64764702bea505db",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "power-failure-warning-device",
+          "configurations": {
+            "android": "1:994164164674:android:dda00d64764702bea505db",
+            "ios": "1:994164164674:ios:cbc66e84318393f3a505db",
+            "macos": "1:994164164674:ios:cbc66e84318393f3a505db",
+            "web": "1:994164164674:web:2da526add9807b5ba505db",
+            "windows": "1:994164164674:web:e0c614e008870ceaa505db"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}
